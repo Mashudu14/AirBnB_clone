@@ -1,7 +1,3 @@
-76% of storage used … 
-If you run out, you can't create, edit and upload files.
-test_review.py
-
 #!/usr/bin/python3
 """Defines unittests for models/review.py.
 
@@ -203,4 +199,3 @@ class TestReview_to_dict(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

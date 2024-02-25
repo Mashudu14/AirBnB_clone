@@ -1,15 +1,17 @@
 #!/usr/bin/python3
-"""Defines the City class."""
+"""Defines the Review class."""
 from models.base_model import BaseModel
 
 
-class City(BaseModel):
-    """Represent a city.
+class Review(BaseModel):
+    """Represent a review.
 
     Attributes:
-        state_id (str): The state id.
-        name (str): The name of the city.
+        place_id (str): The Place id.
+        user_id (str): The User id.
+        text (str): The text of the review.
     """
 
-    state_id = ""
-    name = ""
+    place_id = ""
+    user_id = ""
+    text = ""
